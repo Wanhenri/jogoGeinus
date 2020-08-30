@@ -63,17 +63,27 @@ let click = (color) => {
 }
 
 //criar função que retorna a cor
+//let createColorElement = (color) => {
+//    if(color == 0) {
+//        return green;
+//    } else if(color ==1){
+//        return red;
+//    }else if(color == 2){
+//        return yellow;
+//    }else if(color == 3){
+//        return blue;
+//    }
+//}
+
+//criar função que retorna a cor
 let createColorElement = (color) => {
-    if(color == 0) {
-        return green;
-    } else if(color ==1){
-        return red;
-    }else if(color == 2){
-        return yellow;
-    }else if(color == 3){
-        return blue;
-    }
-}
+    return (color == 0 ) ? green 
+           : (color == 1 ) ? red 
+           : (color == 2 ) ? yellow 
+           : blue;
+} 
+
+
 
 //função paar o proximo nivel do jogo
 let nextLevel = () => {
