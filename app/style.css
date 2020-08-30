@@ -22,13 +22,17 @@ body {
     width: 700px;
     height: 700px;
     margin-left: 30%;
+    box-shadow: 10px 5px 5px grey;
+    
 }
 
 .blue {
     grid-area: azul;
     background-color: blue;
-    border-bottom-right-radius: 100%;
+    border-bottom-right-radius: 100%;  
 }
+
+
 
 .red {
     grid-area: vermelho;
